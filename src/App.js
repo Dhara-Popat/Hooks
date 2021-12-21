@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ParentComponent from './Callback/ParentComponent';
+// import ParentComponent from './Callback/ParentComponent';
 import ClassCounterOne from './components/ClassCounterOne';
 import ComA from './components/ComA';
 import CounterOne from './components/Custom Hook/CounterOne';
@@ -38,9 +38,9 @@ function App() {
 
       {/* <RefHook /> */}
 
-      <CounterOne />
+      {/* <CounterOne /> */}
 
-      <CountTwo />
+      {/* <CountTwo /> */}
 
 
 
