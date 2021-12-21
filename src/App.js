@@ -3,6 +3,8 @@ import './App.css';
 import ParentComponent from './Callback/ParentComponent';
 import ClassCounterOne from './components/ClassCounterOne';
 import ComA from './components/ComA';
+import CounterOne from './components/Custom Hook/CounterOne';
+import CountTwo from './components/Custom Hook/CountTwo';
 import HookCounterone from './components/HookCounterone';
 import MemoHook from './components/MemoHook';
 import ReducerHook from './components/ReducerHook';
@@ -34,7 +36,13 @@ function App() {
 
       {/* <MemoHook /> */}
 
-      <RefHook />
+      {/* <RefHook /> */}
+
+      <CounterOne />
+
+      <CountTwo />
+
+
 
     </div>
   );
