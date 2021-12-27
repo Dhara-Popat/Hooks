@@ -7,6 +7,7 @@ import CounterOne from './components/Custom Hook/CounterOne';
 import CountTwo from './components/Custom Hook/CountTwo';
 import HookCounterone from './components/HookCounterone';
 import MemoHook from './components/MemoHook';
+import Profile from './components/Profile';
 import ReducerHook from './components/ReducerHook';
 import ReducerHookTwo from './components/ReducerHookTwo';
 import RefHook from './components/RefHook';
@@ -41,6 +42,8 @@ function App() {
       {/* <CounterOne /> */}
 
       {/* <CountTwo /> */}
+
+      <Profile />
 
 
 
